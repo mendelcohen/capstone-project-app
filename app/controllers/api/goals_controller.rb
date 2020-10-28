@@ -1,7 +1,9 @@
 class Api::GoalsController < ApplicationController
 
+  before_action :authenticate_user
+
   def index
-    @goals = Goal.all
+    @goals = current_user.goals
     render "index.json.jb"
   end
 
@@ -21,14 +23,14 @@ class Api::GoalsController < ApplicationController
       render json: { errors: @goal.errors.full_messages}, status: :bad_request
     end
   end
-
+  
   def show
     @goal = Goal.find_by(id: params[:id])
     render "show.json.jb"
   end
 
   def update
-    @goal = Goal.find_by(id: params[:id])
+    @goal = Goal.find_by(id: params[:id]) 
     @goal.name = params[:name] || @goal.name
     @goal.category_id = params[:category_id] || @goal.category_id
     @goal.description = params[:description] || @goal.description

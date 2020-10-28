@@ -1,7 +1,9 @@
 class Api::UsersController < ApplicationController
 
+  before_action :authenticate_user, except: :create
+
   def create
-    user = User.new(
+    @user = User.new(
       first_name: params[:first_name],
       last_name: params[:last_name],
       username: params[:username],
@@ -9,10 +11,10 @@ class Api::UsersController < ApplicationController
       password: params[:password],
       password_confirmation: params[:password_confirmation]
     )
-    if user.save
-      render json: { message: "User created successfully" }, status: :created
+    if @user.save
+      render "show.json.jb"
     else
-      render json: { errors: user.errors.full_messages }, status: :bad_request
+      render json: { errors: @user.errors.full_messages }, status: :bad_request
     end
   end
 
@@ -27,7 +29,7 @@ class Api::UsersController < ApplicationController
     @user.last_name = params[:last_name] || @user.last_name
     @user.username = params[:username] || @user.username
     @user.email = params[:email] || @user.email
-    @user.password = @user.password || params[:password]
+    @user.password = params[:password] || @user.password
     @user.password_confirmation = params[:password_confirmation] || @user.password_confirmation
     if @user.save
       render "show.json.jb"

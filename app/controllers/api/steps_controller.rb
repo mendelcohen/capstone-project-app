@@ -1,5 +1,7 @@
 class Api::StepsController < ApplicationController
 
+  before_action :authenticate_user
+
   def create
     @step = Step.new(
       goal_id: params[:goal_id],
@@ -15,10 +17,8 @@ class Api::StepsController < ApplicationController
 
   def update
     @step = Step.find_by(id: params[:id])
-    
     @step.goal_id = params[:goal_id] || @step.goal_id
     @step.date = params[:date] || @step.date
-    
     @step.comment = params[:comment] || @step.comment
     if @step.save
       render "show.json.jb"
@@ -32,7 +32,5 @@ class Api::StepsController < ApplicationController
     step.destroy
     render json: { message: "STEP DELETED" }
   end
-
-
 
 end
