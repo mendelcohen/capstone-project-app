@@ -17,14 +17,14 @@ class Api::UsersController < ApplicationController
       render json: { errors: @user.errors.full_messages }, status: :bad_request
     end
   end
-
+  
   def show
-    @user = User.find_by(id: params[:id])
+    @user = current_user
     render "show.json.jb"
   end
-
+  
   def update
-    @user = User.find_by(id: params[:id])
+    @user = current_user
     @user.first_name = params[:first_name] || @user.first_name
     @user.last_name = params[:last_name] || @user.last_name
     @user.username = params[:username] || @user.username
@@ -37,9 +37,9 @@ class Api::UsersController < ApplicationController
       render json: { errors: @user.errors.full_messages }, status: :bad_request
     end
   end
-
+  
   def destroy
-    user = User.find_by(id: params[:id])
+    user = current_user
     user.destroy
     render json: { message: "USER DELETED" }
   end
