@@ -17,20 +17,28 @@ class Api::StepsController < ApplicationController
 
   def update
     @step = Step.find_by(id: params[:id])
-    @step.goal_id = params[:goal_id] || @step.goal_id
-    @step.date = params[:date] || @step.date
-    @step.comment = params[:comment] || @step.comment
-    if @step.save
-      render "show.json.jb"
+    if @step.goal.user == current_user
+      @step.goal_id = params[:goal_id] || @step.goal_id
+      @step.date = params[:date] || @step.date
+      @step.comment = params[:comment] || @step.comment
+      if @step.save
+        render "show.json.jb"
+      else
+        render json: { errors: @step.errors.full_messages}, status: :bad_request
+      end
     else
-      render json: { errors: @step.errors.full_messages}, status: :bad_request
+      render json: { errors: @step.errors.full_messages }, status: :bad_request
     end
   end
 
   def destroy
     step = Step.find_by(id: params[:id])
-    step.destroy
-    render json: { message: "STEP DELETED" }
+    if step.goal.user == current_user
+      step.destroy
+      render json: { message: "STEP DELETED" }
+    else
+      render json: { message: "You do not belong here!" }
+    end
   end
 
 end

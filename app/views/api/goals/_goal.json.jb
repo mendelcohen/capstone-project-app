@@ -5,6 +5,7 @@
   begin_date: goal.begin_date,
   end_date: goal.end_date,
   image_url: goal.image_url,
-  user_id: goal.user_id
+  user_id: current_user.id,
+  goal_id: goal.id
 }
   

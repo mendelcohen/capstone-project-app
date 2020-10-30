@@ -1,5 +1,7 @@
 {
   goal: @step.goal.name,
   date: @step.date,
-  comment:@step.comment
+  comment: @step.comment,
+  step_id: @step.id,
+  goal_id: @step.goal.id
 }
