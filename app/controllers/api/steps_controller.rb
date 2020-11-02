@@ -37,7 +37,7 @@ class Api::StepsController < ApplicationController
       step.destroy
       render json: { message: "STEP DELETED" }
     else
-      render json: { message: "You do not belong here!" }
+      render json: { message: "ACCESS DENIED" }
     end
   end
 

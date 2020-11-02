@@ -1,4 +1,6 @@
-render partial: "goal.json.jb", locals: { goal: @goal }
+goal = render partial: "goal.json.jb", locals: { goal: @goal }
+goal[:steps] = @goal.steps
+goal
 
 # {
 #   name: @goal.name,
