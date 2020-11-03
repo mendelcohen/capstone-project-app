@@ -1,6 +1,12 @@
 goal = render partial: "goal.json.jb", locals: { goal: @goal }
-goal[:steps] = @goal.steps
+
+goal[:steps] = @goal.steps.map do |step| 
+  render partial: "api/steps/step.json.jb", locals: { step: step }
+end
+
 goal
+
+
 
 # {
 #   name: @goal.name,
