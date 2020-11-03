@@ -18,7 +18,6 @@ class Api::StepsController < ApplicationController
   def update
     @step = Step.find_by(id: params[:id])
     if @step.goal.user == current_user
-      @step.goal_id = params[:goal_id] || @step.goal_id
       @step.date = params[:date] || @step.date
       @step.comment = params[:comment] || @step.comment
       if @step.save

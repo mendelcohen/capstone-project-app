@@ -1,7 +1,5 @@
 {
-  goal: step.goal.name,
+  id: step.id,
   date: step.date,
-  comment: step.comment,
-  step_id: step.id,
-  goal_id: step.goal.id
+  comment: step.comment
 }

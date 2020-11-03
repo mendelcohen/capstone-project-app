@@ -1,4 +1,9 @@
-render partial: "step.json.jb", locals: { step: @step }
+step = render partial: "step.json.jb", locals: { step: @step }
+
+step[:goal_id] = @step.goal.id
+step[:goal] = @step.goal.name
+
+step
 
 # {
 #   goal: @step.goal.name,

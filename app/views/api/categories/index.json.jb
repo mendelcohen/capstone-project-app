@@ -1,5 +1,5 @@
 @categories.map do |category| {
-  name: category.name,
-  category_id: category.id
+  id: category.id,
+  name: category.name
 }
 end
