@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     delete "/users/:id" => "users#destroy"
 
     get "/categories" => "categories#index"
+    patch "/categories/:id" => "categories#update"
 
     get "/goals" => "goals#index"
     post "/goals" => "goals#create"
