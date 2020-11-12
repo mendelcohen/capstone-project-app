@@ -1,5 +1,14 @@
-@categories.map do |category| {
-  id: category.id,
-  name: category.name
-}
+@categories.map do |category|
+  goal_category = render partial: "category.json.jb", locals: { category: category }
+  # goal_category[:goals] = category.goals.map do |goal|
+  #   render partial: "api/goals/goal.json.jb", locals: { goal: goal }
+  # end
+  goal_category[:user_goals] = category.goals.map do |goal|
+    if goal.user_id == current_user
+      render partial: "api/goals/goal.json.jb", locals: { goal: goal }
+    else
+      render partial: "api/goals/goal.json.jb", locals: { goal: goal }
+    end
+  end
+  goal_category
 end

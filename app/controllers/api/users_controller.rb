@@ -6,7 +6,6 @@ class Api::UsersController < ApplicationController
     @user = User.new(
       first_name: params[:first_name],
       last_name: params[:last_name],
-      username: params[:username],
       email: params[:email],
       password: params[:password],
       password_confirmation: params[:password_confirmation]
@@ -27,7 +26,6 @@ class Api::UsersController < ApplicationController
     @user = current_user
     @user.first_name = params[:first_name] || @user.first_name
     @user.last_name = params[:last_name] || @user.last_name
-    @user.username = params[:username] || @user.username
     @user.email = params[:email] || @user.email
     if params[:password]
       @user.password = params[:password]
