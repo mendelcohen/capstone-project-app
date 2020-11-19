@@ -15,6 +15,11 @@ class Api::StepsController < ApplicationController
     end
   end
 
+  def show
+    @step = Step.find_by(id: params[:id])
+    render "show.json.jb"
+  end
+
   def update
     @step = Step.find_by(id: params[:id])
     if @step.goal.user == current_user

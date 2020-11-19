@@ -1,6 +1,15 @@
 @goals.map do |goal| 
-  render partial: "goal.json.jb", locals: { goal: goal }
+  goal = render partial: "goal.json.jb", locals: { goal: goal }
+  if goal[:end_date] - Date.today <= 0
+    goal[:completed] = "true"
+  end
+  goal
 end
+
+ 
+  
+  
+
 
 
 

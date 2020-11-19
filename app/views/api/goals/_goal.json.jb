@@ -2,6 +2,7 @@
   id: goal.id,
   name: goal.name,
   category: goal.category.name,
+  category_id: goal.category_id,
   description: goal.description,
   begin_date: goal.begin_date,
   end_date: goal.end_date,

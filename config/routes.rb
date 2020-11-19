@@ -22,6 +22,7 @@ Rails.application.routes.draw do
     patch "/goals/:id" => "goals#update"
     delete "/goals/:id" => "goals#destroy"
 
+    get "/steps/:id" => "steps#show"
     post "/steps" => "steps#create"
     patch "/steps/:id" => "steps#update"
     delete "/steps/:id" => "steps#destroy"

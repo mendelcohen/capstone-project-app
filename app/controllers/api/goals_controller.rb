@@ -14,6 +14,7 @@ class Api::GoalsController < ApplicationController
       description: params[:description],
       begin_date: params[:begin_date],
       end_date: params[:end_date],
+      completed: params[:completed],
       image_url: params[:image_url],
       user_id: current_user.id
     )
