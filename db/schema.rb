@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2020_11_18_145618) do
   create_table "goals", force: :cascade do |t|
     t.string "name"
     t.integer "category_id"
-    t.text "description", default: Array
+    t.text "description"
     t.date "begin_date"
     t.date "end_date"
     t.string "image_url"
