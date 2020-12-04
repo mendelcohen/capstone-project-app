@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_18_145618) do
+ActiveRecord::Schema.define(version: 2020_11_18_175618) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2020_11_18_145618) do
   create_table "goals", force: :cascade do |t|
     t.string "name"
     t.integer "category_id"
-    t.text "description"
+    t.text "description", default: "Array"
     t.date "begin_date"
     t.date "end_date"
     t.string "image_url"
