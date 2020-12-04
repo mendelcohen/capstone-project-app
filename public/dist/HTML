@@ -1,0 +1,1010 @@
+<div class="top-menu-1x">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="top-menu-left">
+              <p>Need help?</p>
+              <b><i class="fa fa-phone"></i> (00) 123 456 789</b>
+              <b><i class="fa fa-envelope"></i> support@business.com</b>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="top-menu-right">
+              <div class="footer-info-right">
+                <ul>
+                  <li>
+                    <a href="#"> <i class="fa fa-facebook"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="fa fa-twitter"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="fa fa-google"></i> </a>
+                  </li>
+                  <li>
+                    <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+    <div class="business-main-slider">
+      <div class="owl-carousel main-slider">
+        <div class="item">
+          <div class="hvrbox">
+            <img
+              src="images/bg1-7.jpg"
+              alt="Mountains"
+              class="hvrbox-layer_bottom"
+            />
+            <div class="hvrbox-layer_top">
+              <div class="container">
+                <div class="overlay-text text-left">
+                  <h3
+                    data-animation-in="slideInDown"
+                    data-animation-out="animate-out slideOutUp"
+                  >
+                    Construction Company
+                  </h3>
+                  <h2
+                    data-animation-in="slideInDown"
+                    data-animation-out="animate-out slideOutUp"
+                  >
+                    We build future
+                  </h2>
+                  <p
+                    data-animation-in="slideInLeft"
+                    data-animation-out="animate-out fadeOut"
+                  >
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis <br />
+                    praesentium voluptatum deleniti atque corrupti.
+                  </p>
+                  <a
+                    href="#"
+                    class="bussiness-btn-larg"
+                    data-animation-in="slideInUp"
+                    data-animation-out="animate-out slideOutDown"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="hvrbox">
+            <img
+              src="images/bg1-8.jpg"
+              alt="Mountains"
+              class="hvrbox-layer_bottom"
+            />
+            <div class="hvrbox-layer_top">
+              <div class="container">
+                <div class="overlay-text text-right">
+                  <h3
+                    data-animation-in="slideInDown"
+                    data-animation-out="animate-out slideOutUp"
+                  >
+                    Construction Company
+                  </h3>
+                  <h2
+                    data-animation-in="slideInDown"
+                    data-animation-out="animate-out slideOutUp"
+                  >
+                    We build career
+                  </h2>
+                  <p
+                    data-animation-in="slideInLeft"
+                    data-animation-out="animate-out fadeOut"
+                  >
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis <br />
+                    praesentium voluptatum deleniti atque corrupti.
+                  </p>
+                  <a
+                    href="#"
+                    class="bussiness-btn-larg"
+                    data-animation-in="slideInUp"
+                    data-animation-out="animate-out slideOutDown"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="hvrbox">
+            <img
+              src="images/image-6-1.jpg"
+              alt="Mountains"
+              class="hvrbox-layer_bottom"
+            />
+            <div class="hvrbox-layer_top">
+              <div class="container">
+                <div class="overlay-text text-center text-white">
+                  <h3
+                    data-animation-in="slideInDown"
+                    data-animation-out="animate-out slideOutUp"
+                  >
+                    Construction Company
+                  </h3>
+                  <h2
+                    data-animation-in="slideInDown"
+                    data-animation-out="animate-out slideOutUp"
+                  >
+                    We build career
+                  </h2>
+                  <p
+                    data-animation-in="slideInLeft"
+                    data-animation-out="animate-out fadeOut"
+                  >
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis <br />
+                    praesentium voluptatum deleniti atque corrupti.
+                  </p>
+                  <a
+                    href="#"
+                    class="bussiness-btn-larg"
+                    data-animation-in="slideInUp"
+                    data-animation-out="animate-out slideOutDown"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="business-feature-1x business-feature-onslider">
+      <div class="container">
+        <div class="business-features">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4 no-padding">
+                <div class="single-features">
+                  <div class="media">
+                    <img
+                      src="images/icon/leader.png"
+                      alt="Generic placeholder image"
+                    />
+                    <div class="media-body">
+                      <h5 class="mt-0">Business with Thought Leadership</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 no-padding">
+                <div class="single-features active">
+                  <div class="media">
+                    <img
+                      src="images/icon/world-map.png"
+                      alt="Generic placeholder image"
+                    />
+                    <div class="media-body">
+                      <h5 class="mt-0">Global consumer insights business</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 no-padding">
+                <div class="single-features">
+                  <div class="media">
+                    <img
+                      src="images/icon/money.png"
+                      alt="Generic placeholder image"
+                    />
+                    <div class="media-body">
+                      <h5 class="mt-0">Segment of focused top investors</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-services-1x">
+      <div class="container">
+        <div class="business-services">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="business-title-middle">
+                <h2>Our Services</h2>
+                <span class="title-border-middle"></span>
+              </div>
+            </div>
+
+            <div class="col-md-12 service-content">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="single-services">
+                    <div class="media">
+                      <img
+                        src="images/icon/icon-1.png"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="media-body">
+                        <a href="#">Business Services Consulting</a>
+                        <p>
+                          Design repeatable growth models and innovation pipe
+                          that generate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-services">
+                    <div class="media">
+                      <img
+                        src="images/icon/icon-2.png"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="media-body">
+                        <a href="#">Energy Environment Consulting</a>
+                        <p>
+                          Design repeatable growth models and innovation pipe
+                          that generate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-services">
+                    <div class="media">
+                      <img
+                        src="images/icon/icon-3.png"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="media-body">
+                        <a href="#">Consumer Products Consulting</a>
+                        <p>
+                          Design repeatable growth models and innovation pipe
+                          that generate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-services">
+                    <div class="media">
+                      <img
+                        src="images/icon/icon-4.png"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="media-body">
+                        <a href="#">Surface Transport & Logistics Consulting</a>
+                        <p>
+                          Design repeatable growth models and innovation pipe
+                          that generate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-services">
+                    <div class="media">
+                      <img
+                        src="images/icon/icon-5.png"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="media-body">
+                        <a href="#">Financial Services Consulting</a>
+                        <p>
+                          Design repeatable growth models and innovation pipe
+                          that generate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="single-services">
+                    <div class="media">
+                      <img
+                        src="images/icon/icon-6.png"
+                        alt="Generic placeholder image"
+                      />
+                      <div class="media-body">
+                        <a href="#">Travel and Aviation Consulting </a>
+                        <p>
+                          Design repeatable growth models and innovation pipe
+                          that generate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-features-3x">
+      <div class="colourful-features-content">
+        <div class="row">
+          <div class="col-md-3 no-padding">
+            <div class="single-colorful-feature feature-color-1">
+              <h3>01.</h3>
+              <h2>Planning</h2>
+              <p>
+                At vero eos et accusamus ehdf iusto dignissimos ducimused qughi
+                blakrn ditiis praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 no-padding">
+            <div class="single-colorful-feature feature-color-2">
+              <h3>02.</h3>
+              <h2>Creative Design</h2>
+              <p>
+                At vero eos et accusamus ehdf iusto dignissimos ducimused qughi
+                blakrn ditiis praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 no-padding">
+            <div class="single-colorful-feature feature-color-3">
+              <h3>03.</h3>
+              <h2>Development</h2>
+              <p>
+                At vero eos et accusamus ehdf iusto dignissimos ducimused qughi
+                blakrn ditiis praesentium.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 no-padding">
+            <div class="single-colorful-feature feature-color-4">
+              <h3>04.</h3>
+              <h2>Promotion</h2>
+              <p>
+                At vero eos et accusamus ehdf iusto dignissimos ducimused qughi
+                blakrn ditiis praesentium voluptatum .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-app-present-2x">
+      <div class="app-present-content-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="business-title-middle">
+                <h2>Core Features</h2>
+                <span class="title-border-middle"></span>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="margin-top-middle"></div>
+            </div>
+
+            <div class="col-md-7">
+              <div class="app-present-left-2">
+                <img src="images/ipad.png" alt="Mountains" class="" />
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="app-present-right-2">
+                <div class="single-app-present">
+                  <div class="media">
+                    <span class="animatedhover pulse"
+                      ><i class="fa fa-phone"></i
+                    ></span>
+                    <div class="media-body">
+                      <h2>Business Services Consulting</h2>
+                      <p>
+                        At vero eos et accusamus ehdf iusto dignis ducimused
+                        qughi blakrn.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-app-present">
+                  <div class="media">
+                    <span class="animatedhover pulse"
+                      ><i class="fa fa-podcast"></i
+                    ></span>
+                    <div class="media-body">
+                      <h2>Energy Environment Consulting</h2>
+                      <p>
+                        At vero eos et accusamus ehdf iusto dignis ducimused
+                        qughi blakrn.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-app-present">
+                  <div class="media">
+                    <span class="animatedhover pulse"
+                      ><i class="fa fa-user"></i
+                    ></span>
+                    <div class="media-body">
+                      <h2>Consumer Products Consulting</h2>
+                      <p>
+                        At vero eos et accusamus ehdf iusto dignis ducimused
+                        qughi blakrn.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="single-app-present">
+                  <div class="media">
+                    <span class="animatedhover pulse"
+                      ><i class="fa fa-bus"></i
+                    ></span>
+                    <div class="media-body">
+                      <h2>Surface Transport Consulting</h2>
+                      <p>
+                        At vero eos et accusamus ehdf iusto dignis ducimused
+                        qughi blakrn.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <!-- Start Portfolio Section -->
+    <div class="business-portfolio-1x" id="portfolio">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="bussiness-portfolio-light">
+            <div class="col-md-12">
+              <div class="business-title-middle">
+                <h2>Amazing Projects</h2>
+                <span class="title-border-middle"></span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="padding-top-small"></div>
+
+                <div class="portfolio-body">
+                  <ul class="simplefilter text-center">
+                    <li class="active" data-filter="all">All</li>
+                    <li data-filter="1">Cityscape</li>
+                    <li data-filter="2">Landscape</li>
+                    <li data-filter="3">Industrial</li>
+                    <li data-filter="4">Daylight</li>
+                    <li data-filter="5">Nightscape</li>
+                  </ul>
+                  <div class="padding-top-middle"></div>
+
+                  <div class="filtr-container">
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="2, 5"
+                      data-sort="Luminous night"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/bg-2.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html">Luminous night</a></span
+                      >
+                    </div>
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="1, 4"
+                      data-sort="City wonders"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/bg-3.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html">city wonders</a></span
+                      >
+                    </div>
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="3"
+                      data-sort="In production"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/bg-4.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html">in production</a></span
+                      >
+                    </div>
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="3, 4"
+                      data-sort="Industrial site"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/bg-5.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html"
+                          >industrial site</a
+                        ></span
+                      >
+                    </div>
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="2, 4"
+                      data-sort="Peaceful lake"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/bg-6.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html">peaceful lake</a></span
+                      >
+                    </div>
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="1, 5"
+                      data-sort="City lights"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/blog-1.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html">city lights</a></span
+                      >
+                    </div>
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="1, 5"
+                      data-sort="City lights"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/blog-2.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html">city lights</a></span
+                      >
+                    </div>
+                    <div
+                      class="col-md-3 no-padding filtr-item hover01"
+                      data-category="1, 5"
+                      data-sort="City lights"
+                    >
+                      <figure>
+                        <img
+                          class="img-responsive"
+                          src="images/blog-3.jpg"
+                          alt="sample image"
+                        />
+                      </figure>
+                      <span class="item-desc"
+                        ><a href="project-details.html">city lights</a></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio Section -->
+
+    <div class="padding-top-large"></div>
+
+    <div class="team-members-1x">
+      <div class="container">
+        <div class="team-members-content">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="business-title-left">
+                <h2>Team Members</h2>
+                <span class="title-border-left"></span>
+              </div>
+              <div class="team-members-left">
+                <p>
+                  At vero eos et accusamus et iusto and odioarweres dignissimos
+                  du cimuqui blanditiis praesentium voluptatum deleniti atque
+                  corrupti.
+                </p>
+                <a href="#" class="bussiness-btn-larg">See Our Team</a>
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="team-members-right">
+                    <div class="owl-carousel team-members">
+                      <div class="item hover01">
+                        <figure>
+                          <img
+                            src="images/member/team2.jpg"
+                            alt="slide 1"
+                            class=""
+                          />
+                        </figure>
+                        <a href="member-profile.html">Jhon Smith</a>
+                        <h3>Director</h3>
+                      </div>
+                      <div class="item hover01">
+                        <figure>
+                          <img
+                            src="images/member/team3.jpg"
+                            alt="slide 1"
+                            class=""
+                          />
+                        </figure>
+                        <a href="member-profile.html">Danial Augustin</a>
+                        <h3>Director</h3>
+                      </div>
+                      <div class="item hover01">
+                        <figure>
+                          <img
+                            src="images/member/team5.jpg"
+                            alt="slide 1"
+                            class=""
+                          />
+                        </figure>
+                        <a href="member-profile.html">Adam Smith</a>
+                        <h3>Director</h3>
+                      </div>
+                      <div class="item hover01">
+                        <figure>
+                          <img
+                            src="images/member/team6.jpg"
+                            alt="slide 1"
+                            class=""
+                          />
+                        </figure>
+                        <a href="">Evana Chy</a>
+                        <h3>Director</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-cta-1x">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="cta-content">
+              <h3>
+                We have invested $50B in 400 traansaction across 24 countries
+              </h3>
+              <h2>Download our past year highlight review</h2>
+              <a href="#" class="bussiness-btn-larg">Download Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-testimonial-slider-1x">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="testimonial-slider-content">
+              <div class="owl-carousel testimonial-slider">
+                <div class="item">
+                  <blockquote>
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod<br />
+                    maxime placeat facere possimus, omnis voluptas assumenda
+                    est, omnis dolor repellendus.<br />
+                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                    necessitatibus.
+                  </blockquote>
+                  <img src="images/member/team5.jpg" alt="slide 1" />
+                  <h2>Jhone Doe</h2>
+                  <h3>Chairman</h3>
+                </div>
+                <div class="item">
+                  <blockquote>
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod<br />
+                    maxime placeat facere possimus, omnis voluptas assumenda
+                    est, omnis dolor repellendus.<br />
+                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                    necessitatibus.
+                  </blockquote>
+                  <img src="images/member/team6.jpg" alt="slide 1" />
+                  <h2>Devid Augustin</h2>
+                  <h3>Founder</h3>
+                </div>
+                <div class="item">
+                  <blockquote>
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod<br />
+                    maxime placeat facere possimus, omnis voluptas assumenda
+                    est, omnis dolor repellendus.<br />
+                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                    necessitatibus.
+                  </blockquote>
+                  <img src="images/member/team9.jpg" alt="slide 1" />
+                  <h2>Evana Chy</h2>
+                  <h3>Founder</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-call-back-1x">
+      <div class="business-call-back-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="call-back-left">
+                <div class="business-title-left">
+                  <h2>Request a call</h2>
+                  <span class="title-border-left"></span>
+                </div>
+                <p>
+                  At vero eos et accusamus et iusto and odioarweres dignissimos
+                  du cimuqui blanditiis praesentium voluptatum deleniti atque
+                  corrupti.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="call-back-right">
+                <h2>I Would like to discuss</h2>
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="exampleFormControlInput1"
+                          placeholder="Name"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <select
+                          class="form-control"
+                          id="exampleFormControlSelect1"
+                        >
+                          <option>Business Planning</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input
+                          type="number"
+                          class="form-control"
+                          id="exampleFormControlInput2"
+                          placeholder="Phone Number"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="#" class="bussiness-btn-larg">Submit</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-blog-1x">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="business-title-middle">
+              <h2>Latest News</h2>
+              <span class="title-border-middle"></span>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="margin-top-middle"></div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-bolg hover01">
+              <figure>
+                <img src="images/blog-1.jpg" alt="slide 1" class="" />
+              </figure>
+              <div class="blog-content">
+                <a href="single.html">Successfull business tips way to grow</a>
+                <span><i class="fa fa-clock-o"></i>14 Dec, 2017</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-bolg hover01">
+              <figure>
+                <img src="images/blog-2.jpg" alt="slide 1" class="" />
+              </figure>
+              <div class="blog-content">
+                <a href="single.html"
+                  >The most successful ones go over the top</a
+                >
+                <span><i class="fa fa-clock-o"></i>14 Dec, 2017</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-bolg hover01">
+              <figure>
+                <img src="images/blog-3.jpg" alt="slide 1" class="" />
+              </figure>
+              <div class="blog-content">
+                <a href="single.html"
+                  >Why buying a big house is a bad investment</a
+                >
+                <span><i class="fa fa-clock-o"></i>14 Dec, 2017</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-bolg hover01">
+              <figure>
+                <img src="images/blog-4.jpg" alt="slide 1" class="" />
+              </figure>
+              <div class="blog-content">
+                <a href="single.html"
+                  >Strategic & commercial approach with issues</a
+                >
+                <span><i class="fa fa-clock-o"></i>14 Dec, 2017</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="business-cta-2x">
+      <div class="business-cta-2-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="business-cta-left-2">
+                <h2>Looking for an excelent business solution ?</h2>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="business-cta-right-2">
+                <a href="#" class=" btn bussiness-btn-larg">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <div class="clients-slider-1x">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="clients-logo-slider">
+              <div class="owl-carousel clients-slider">
+                <div class="item">
+                  <a href="#"
+                    ><img src="images/client/1.png" alt="slide 1" class=""
+                  /></a>
+                </div>
+                <div class="item">
+                  <a href="#"
+                    ><img src="images/client/2.png" alt="slide 1" class=""
+                  /></a>
+                </div>
+                <div class="item">
+                  <a href="#"
+                    ><img src="images/client/3.png" alt="slide 1" class=""
+                  /></a>
+                </div>
+                <div class="item">
+                  <a href="#"
+                    ><img src="images/client/4.png" alt="slide 1" class=""
+                  /></a>
+                </div>
+                <div class="item">
+                  <a href="#"
+                    ><img src="images/client/5.png" alt="slide 1" class=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding-top-large"></div>
+
+    <!-- Start Client Map -->
+    <div class="client_map">
+      <div class="row">
+        <div id="map"></div>
+      </div>
+    </div>
+    <!-- End Client Map -->
+
+    
