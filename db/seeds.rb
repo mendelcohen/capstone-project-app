@@ -14,15 +14,15 @@
 # ])
 
 
-#Categories
-# Category.create!([
-#   {name: "Helping Children Deal with Their Feelings"},
-#   {name: "Engaging Cooperation"},
-#   {name: "Alternatives to Punishment"},
-#   {name: "Encouraging Autonomy"},
-#   {name: "Praise"},
-#   {name: "Freeing Children From Playing Roles"}
-# ])
+Categories
+Category.create!([
+  {name: "Helping Children Deal with Their Feelings"},
+  {name: "Engaging Cooperation"},
+  {name: "Alternatives to Punishment"},
+  {name: "Encouraging Autonomy"},
+  {name: "Praise"},
+  {name: "Freeing Children From Playing Roles"}
+])
 
   
 #Goals
