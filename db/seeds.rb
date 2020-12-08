@@ -14,7 +14,7 @@
 # ])
 
 
-Categories
+# Categories
 Category.create!([
   {name: "Helping Children Deal with Their Feelings"},
   {name: "Engaging Cooperation"},
